@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,350;0,400;0,600;0,700;1,350;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-wine-50: #faf1f1;
+  --color-wine-100: #f6e0e0;
+  --color-wine-200: #eec5c5;
+  --color-wine-300: #e09f9f;
+  --color-wine-400: #cd6f6f;
+  --color-wine-500: #b84545;
+  --color-wine-600: #9e3030;
+  --color-wine-700: #8e2020; /* Perfect Theme Velvet Wine Red */
+  --color-wine-800: #6a1a1a;
+  --color-wine-900: #3a2a2a; /* Espresso Warm Dark Border/Details */
+  --color-wine-950: #0f0909; /* Core Dark Chocolate-Wine Art Canvas background */
+  
+  --color-gold-50: #fbfbf6;
+  --color-gold-100: #f4eee0; /* Warm Ivory/Alabaster Foreground */
+  --color-gold-200: #e3d7be;
+  --color-gold-300: #d4c1a0;
+  --color-gold-400: #c5a47e; /* Champagne Detail Accent */
+  --color-gold-500: #b28c5f;
+  --color-gold-600: #9c7348;
+  --color-gold-700: #815c39;
+  --color-gold-800: #694a2f;
+  --color-gold-900: #523925;
+  --color-gold-950: #1a1212; /* Rich Darker Panels */
+}
